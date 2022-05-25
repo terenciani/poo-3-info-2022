@@ -1,3 +1,5 @@
+package br.edu.ifpr.paranavai.turma;
+
 import java.util.Scanner;
 
 public class AulaDeHj {
@@ -6,7 +8,7 @@ public class AulaDeHj {
 		Scanner teclado = new Scanner(System.in);
 		Aluno joao = new Aluno();
 		Aluno marcelo = new Aluno();
-		Aluno dani = new Aluno("Dani Diabólica","107.781.439-96", "99903-4422");
+		Aluno dani = new Aluno("Dani Diabï¿½lica", "107.781.439-96", "99903-4422");
 		System.out.println(dani.cpf);
 		System.out.println(dani.nome);
 		System.out.println(marcelo.nome);

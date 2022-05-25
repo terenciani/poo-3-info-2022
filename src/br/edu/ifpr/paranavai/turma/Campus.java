@@ -1,3 +1,4 @@
+package br.edu.ifpr.paranavai.turma;
 
 public class Campus {
 	String endereco;
