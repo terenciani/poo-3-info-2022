@@ -1,4 +1,6 @@
-package carro;
+package aulametodos.principal;
+
+import aulametodos.modelo.Carro;
 
 public class Principal {
 	public static void main(String[] args) {

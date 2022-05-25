@@ -1,13 +1,13 @@
-package carro;
+package aulametodos.modelo;
 
 public class Carro {
-	String cor;
-	int portas;
-	boolean ligado;
-	String sentido; // poderia ser boolean
-	int velocidade;
+	public String cor;
+	public int portas;
+	public boolean ligado;
+	public String sentido; // poderia ser boolean
+	public int velocidade;
 	
-	Carro(){
+	public Carro(){
 		this.sentido = "Para frente";
 	}
 
