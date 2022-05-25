@@ -1,4 +1,10 @@
-package br.edu.ifpr.paranavai.palestra;
+package br.edu.ifpr.paranavai.teste;
+
+import br.edu.ifpr.palestra.modelo.Certificado;
+import br.edu.ifpr.palestra.modelo.Palestra;
+import br.edu.ifpr.palestra.modelo.Palestrante;
+import br.edu.ifpr.palestra.modelo.Participante;
+import br.edu.ifpr.palestra.modelo.Sala;
 
 public class Principal {
 

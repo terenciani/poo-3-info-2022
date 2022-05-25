@@ -8,11 +8,12 @@ public class Pessoa {
 	private String cpf;
 	
 	//metodos
-	Pessoa(){
+	public Pessoa(){
 	
 	}
-	void metodo(){
-		
+	
+	public int metodo(){
+		return 5;
 	}
 
 }

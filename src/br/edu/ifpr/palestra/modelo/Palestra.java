@@ -1,9 +1,9 @@
-package br.edu.ifpr.paranavai.palestra;
+package br.edu.ifpr.palestra.modelo;
 
 public class Palestra {
-	String tema;
-	String diaHora;
-	boolean exigeFrequencia;
+	private  String tema;
+	private  String diaHora;
+	private  boolean exigeFrequencia;
 
 	public Palestra() {
 		

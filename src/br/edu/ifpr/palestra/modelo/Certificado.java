@@ -1,10 +1,10 @@
-package br.edu.ifpr.paranavai.palestra;
+package br.edu.ifpr.palestra.modelo;
 
 public class Certificado {
-	int livro;
-	int pagina;
-	int numeroCertificado;
-	int folha;
+	private int livro;
+	private int pagina;
+	private int numeroCertificado;
+	private int folha;
 	
 	public Certificado() {
 		
