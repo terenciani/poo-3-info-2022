@@ -1,6 +1,6 @@
 package br.edu.ifpr.paranavai.teste;
 
-import br.edu.ifpr.paranavai.encapsulamento.Pessoa;
+import br.edu.ifpr.paranavai.aulaencapsulamento.Pessoa;
 
 public class Teste2{
 

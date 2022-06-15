@@ -1,4 +1,4 @@
-package br.edu.ifpr.palestra.teste;
+package br.edu.ifpr.palestra.aulaencapsulamento.teste;
 
 import br.edu.ifpr.palestra.modelo.Palestrante;
 
@@ -15,18 +15,18 @@ public class TesteGettersSetters {
 		Palestrante palestrante8 = new Palestrante("Marcelo 8");
 		Palestrante palestrante9 = new Palestrante("Marcelo 9");
 		
-		palestrante.nome = "Marcelo Novo";
-		
-		System.out.println(palestrante.nome.toUpperCase());
-		System.out.println(palestrante1.nome.toUpperCase());
-		System.out.println(palestrante2.nome.toUpperCase());
-		System.out.println(palestrante3.nome.toUpperCase());
-		System.out.println(palestrante4.nome.toUpperCase());
-		System.out.println(palestrante5.nome.toUpperCase());
-		System.out.println(palestrante6.nome.toUpperCase());
-		System.out.println(palestrante7.nome.toUpperCase());
-		System.out.println(palestrante8.nome.toUpperCase());
-		System.out.println(palestrante9.nome.toUpperCase());
+//		palestrante.nome = "Marcelo Novo";
+//		
+//		System.out.println(palestrante.nome.toUpperCase());
+//		System.out.println(palestrante1.nome.toUpperCase());
+//		System.out.println(palestrante2.nome.toUpperCase());
+//		System.out.println(palestrante3.nome.toUpperCase());
+//		System.out.println(palestrante4.nome.toUpperCase());
+//		System.out.println(palestrante5.nome.toUpperCase());
+//		System.out.println(palestrante6.nome.toUpperCase());
+//		System.out.println(palestrante7.nome.toUpperCase());
+//		System.out.println(palestrante8.nome.toUpperCase());
+//		System.out.println(palestrante9.nome.toUpperCase());
 		System.out.println("Getter");
 		System.out.println(palestrante.getNome());
 		System.out.println(palestrante1.getNome());

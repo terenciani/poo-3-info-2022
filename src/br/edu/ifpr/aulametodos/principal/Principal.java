@@ -1,6 +1,6 @@
-package aulametodos.principal;
+package br.edu.ifpr.aulametodos.principal;
 
-import aulametodos.modelo.Carro;
+import br.edu.ifpr.aulametodos.modelo.Carro;
 
 public class Principal {
 	public static void main(String[] args) {

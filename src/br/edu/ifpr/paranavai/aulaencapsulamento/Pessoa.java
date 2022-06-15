@@ -1,4 +1,4 @@
-package br.edu.ifpr.paranavai.encapsulamento;
+package br.edu.ifpr.paranavai.aulaencapsulamento;
 
 public class Pessoa {
 	public String roupa;

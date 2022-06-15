@@ -1,4 +1,4 @@
-package aulametodos.modelo;
+package br.edu.ifpr.aulametodos.modelo;
 
 public class Carro {
 	public String cor;

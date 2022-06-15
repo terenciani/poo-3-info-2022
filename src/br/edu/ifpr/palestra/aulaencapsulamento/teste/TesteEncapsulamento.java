@@ -1,4 +1,4 @@
-package br.edu.ifpr.palestra.teste;
+package br.edu.ifpr.palestra.aulaencapsulamento.teste;
 
 import br.edu.ifpr.palestra.modelo.*;
 
@@ -13,10 +13,10 @@ public class TesteEncapsulamento {
 		// não pode ser alterado por ser protegido
 		// palestra.tema = "Testando";
 		
-		palestrante.nome = "Marcelo"; // pode ser alterado por ser público
+		// palestrante.nome = "Marcelo"; // pode ser alterado por ser público
 		
 		// não pode ser alterado por ser privado
-		certificado.numeroCertificado = 1;
+		// certificado.numeroCertificado = 1;
 		
 		// não pode ser alterado por não estar no mesmo pacote
 		// sala.capacidade = 40;
