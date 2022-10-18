@@ -1,6 +1,9 @@
 package br.edu.ifpr.palestra.aulaencapsulamento.teste;
 
-import br.edu.ifpr.palestra.modelo.*;
+import br.edu.ifpr.palestra.modelo.Certificado;
+import br.edu.ifpr.palestra.modelo.Palestra;
+import br.edu.ifpr.palestra.modelo.Palestrante;
+import br.edu.ifpr.palestra.modelo.Sala;
 
 public class TesteEncapsulamento {
 
