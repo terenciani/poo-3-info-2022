@@ -32,6 +32,22 @@ public class CampusDAO {
 		return listaDeCampus;
 	}
 	
+	public void salvarCampus(Campus campus) {
+		String SQL = "INSERT INTO tb_campus (nome, endereco, cidade) VALUES (?, ?, ?)";
+		
+		try {
+			PreparedStatement preparacaoDaInstrucao = Conexao.getConexao().prepareStatement(SQL);
+			preparacaoDaInstrucao.setString(1, campus.getNome());
+			preparacaoDaInstrucao.setString(2, campus.getEndereco());
+			preparacaoDaInstrucao.setString(3, campus.getCidade());
+			
+			preparacaoDaInstrucao.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
 	// transformação
 	public Campus transformarResultSetEmObjeto(ResultSet resultSet) throws SQLException {
 		Campus campus = new Campus();
