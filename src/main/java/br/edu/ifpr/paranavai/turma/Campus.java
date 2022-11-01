@@ -9,6 +9,12 @@ public class Campus {
 	public Campus() {
 	}
 
+	public Campus(String endereco, String nome, String cidade) {
+		this.endereco = endereco;
+		this.nome = nome;
+		this.cidade = cidade;
+	}
+	
 	public Campus(int idCampus, String endereco, String nome, String cidade) {
 		this.idCampus = idCampus;
 		this.endereco = endereco;
